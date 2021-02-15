@@ -99,7 +99,7 @@ def generate_map(year: int, loc: list):
     map.add_child(fg_pp)
     map.add_child(fg)
     map.add_child(folium.LayerControl())
-    map.save("Map1_1.html")
+    map.save("Map_of_markers.html")
     print("Done! Now you can open the map  Map_of_markers.html")
 
 
